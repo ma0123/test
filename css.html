@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>css</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        /*這是css的註解*/
+        /*標籤名稱選擇器*/
+        body{
+           font-weight: bold;
+           font-family: "微軟正黑體","新細明體"
+        }
+        /*id選擇器*/
+        #del{
+             text-decoration: line-through;
+        }
+        /*class選擇器*/
+        .title{color: cadetblue;font-size: 24px;font-weight:bold;}
+        .content{border: 2px dashed orange; padding:10px; margin:5px;}
+        .keyword{color:red}
+    </style>
+</head>
+<body style="background-color:#ccc;text-align: center">
+    <h3 style="color: cadetblue" id="del">這是段落標題</h3>
+    <p>這是段落內容</p>
+
+    <div style="color: cadetblue;font-size: 24px;font-weight:bold;">這是一個段落標題</div>
+    <div style="border: 2px dashed red; padding:10px; margin:5px; ">今天的<div style="display: inline;;color:red">天氣</div>不太好</div>
+    <div style="border: 2px dashed pink; padding:10px; margin:5px; ">今天的<div style="color:red">天氣</div>不太好</div>
+    <div style="border: 2px dashed orange; padding:10px; margin:5px; ">今天的<span style="color:red">天氣</span>不太好</div>
+  
+    <br/>
+
+    <div style="color: cadetblue;font-size: 24px;font-weight:bold;">這是一個段落標題</div>
+    <div style="border:1px dashed blue;height:80px;padding: 10px">天氣
+        <div style="width:500px;background-color: white;margin: auto">今天的天氣真好</div>
+    </div>
+
+    <br/>
+
+    <div style="color: cadetblue;font-size: 24px;font-weight:bold;">這是一個段落標題</div>
+    <div style="border: 2px dashed orange; padding:10px; margin:5px; ">今天的<span style="color:red">天氣</span>不太好</div>
+
+    <div class="title">這是一個段落標題</div>
+    <div class="content">今天的<span class="keyword">天氣</span>不太好</div>
+
+    <div class="title">這是一個段落標題</div>
+    <div class="content">今天的<span  class="keyword">天氣</span>不太好</div>
+    
+</body>
+</html>
